@@ -8,7 +8,7 @@ vet: fmt
 	go vet ./...
 
 build: vet
-	go build hello.go
+	go build exercises.go
 
 clean: build
 	go clean
